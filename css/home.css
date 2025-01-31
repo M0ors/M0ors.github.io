@@ -32,15 +32,17 @@ body {
     font-family: Geologica;
     font-weight: bold;
     font-size: 10vw;
-    line-height: 75%;
-    letter-spacing: -5px;
+    line-height: 78%;
+    letter-spacing: -8px;
     color: var(--three);
     margin: auto 0;
+    width: 52vw;
+    display: inline;
 }
 
 .side-profile {
-    height: 40vh;
+    height: auto;
     max-height: 850px;
-    width: auto;
+    width: 20vw;
     margin: auto 20px auto 30px;
 }
