@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Poppins';
-    src: url(../fonts/Poppins-SemiBold.ttf) format('truetype');
+    font-family: 'Geologica';
+    src: url(../fonts/Geologica/Geologica.ttf) format('truetype');
 }
 
 :root {
@@ -21,5 +21,21 @@ body {
 }
 
 .container {
+    width: 80vw;
+    height: calc(100vh - 90px);
+    margin: 90px 0 0 0;
+}
 
+.title-line {
+    font-family: Geologica;
+    font-weight: bold;
+    font-size: 360;
+    line-height: 75%;
+    letter-spacing: -5%;
+}
+
+.side-profile {
+    height: 75vh;
+    width: auto;
+    margin: 0 0 0 -30px;
 }
