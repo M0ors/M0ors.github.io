@@ -21,6 +21,27 @@
     position: absolute;
 }
 
-.nav {
+.pills {
+    display: flex;
+    width: 148px;
+    margin: 10px 0;
+}
 
+.nav {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background: var(--three);
+    margin: 0 20px 0 0;
+}
+
+.profile {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background: var(--three);
+}
+
+.ring {
+    margin: 0 0 44px 44px;
 }
