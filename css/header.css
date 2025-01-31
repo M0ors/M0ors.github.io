@@ -8,6 +8,7 @@
     justify-content: space-between;
     z-index: 1;
     background: var(--two);
+    filter: drop-shadow(0px 4px 0 var(--one));
 }
 
 .logo {
@@ -44,5 +45,5 @@
 }
 
 .ring {
-    margin: 0 0 44px 44px;
+    margin: 44px 0 0 44px;
 }
