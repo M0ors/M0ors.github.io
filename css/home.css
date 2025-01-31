@@ -4,13 +4,15 @@
 }
 
 :root {
-    --bg: ;
-    --main: ;
-    --text: ;
+    --one: #242424;
+    --text: #343434;
+    --three: #444444;
+    --four: #545454;
+    --yellow: #F2DD6E;
 }
 
 body {
-    background: var(--bg);
+    background: var(--two);
     margin: 0;
     width: 100%;
     height: 100vh;

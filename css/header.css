@@ -1,27 +1,26 @@
 .header {
     position: relative;
     width: 100vw;
+    height: 84px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     z-index: 1;
+    background: var(--two);
 }
 
 .logo {
-    width: 106px;
-    height: 48px;
-    margin: 30px 0 0 55px;
+    width: 80px;
+    height: auto;
+    margin: 10px 0 0 150px;
 }
 
 .logo img {
-    width: 106px;
-    height: 48px;
+    width: 80px;
+    height: auto;
     position: absolute;
-    flex-shrink: 0;
 }
 
 .nav {
-    width: 310px;
-    height: 266px;
-    margin: 0 8px 0 0;
+
 }
