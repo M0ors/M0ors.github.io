@@ -59,14 +59,33 @@
 input, ul.dropdown {
     display: none;
 }
-  
+
 label {
     position: relative;
     display: block;
     cursor: pointer;
+    height: 30px;
 }
-  
 
 input:checked~ul.dropdown {
     display: block;
+    padding: 0;
+    margin: 340px 0 0 80px;
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    border-radius: 0 0 100px 100px;
+    background: var(--three);
+}
+
+li::marker {
+    display: none;
+}
+
+.dropdown-list {
+    width: 160px;
+    height: 40px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background: var(--four);
 }
