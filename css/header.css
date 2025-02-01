@@ -67,12 +67,17 @@ label {
     height: 30px;
 }
 
-input:checked~ul.dropdown {
+.dropdown {
+    max-height: 0px;
+    transition: max-height 300ms ease-in-out;
+}
+
+input:checked ~ ul.dropdown {
     display: block;
     padding: 0;
     margin: 340px 0 0 80px;
     position: absolute;
-    height: 250px;
+    max-height: 250px;
     width: 200px;
     border-radius: 0 0 100px 100px;
     background: var(--three);
@@ -102,6 +107,5 @@ input:checked~ul.dropdown {
 }
 
 .dropdown-list a:hover {
-    color: var(--two);
-    background: var(--three);
+    background: var(--yellow);
 }
