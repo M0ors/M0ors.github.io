@@ -71,7 +71,7 @@ ul.dropdown {
     transition: 300ms ease-in-out;
     display: block;
     padding: 0;
-    margin: 440px 0 0 80px;
+    margin: -440px 0 0 80px;
     position: absolute;
     width: 200px;
     height: 350px;
@@ -83,6 +83,10 @@ ul.dropdown {
 
 input:checked ~ ul.dropdown {
     margin: 250px 0 0 80px;
+}
+
+ul.dropdown li:first-child {
+    margin: 115px 20px 0;
 }
 
 .dropdown-list {
