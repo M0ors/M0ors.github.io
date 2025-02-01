@@ -55,3 +55,18 @@
 .ring {
     margin: 44px 0 0 44px;
 }
+
+input, ul.dropdown {
+    display: none;
+}
+  
+label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+  
+
+input:checked~ul.dropdown {
+    display: block;
+}
