@@ -67,22 +67,22 @@ label {
     height: 30px;
 }
 
-.dropdown {
-    max-height: 0px;
-    transition: max-height 300ms ease-in-out;
+ul.dropdown {
+    transition: 300ms ease-in-out;
     display: block;
     padding: 0;
-    margin: 340px 0 0 80px;
+    margin: 440px 0 0 80px;
     position: absolute;
     width: 200px;
-    height: 250px;
+    height: 350px;
     border-radius: 0 0 100px 100px;
     background: var(--three);
     list-style: none;
+    z-index: -1;
 }
 
 input:checked ~ ul.dropdown {
-    max-height: 250px;
+    margin: 250px 0 0 80px;
 }
 
 .dropdown-list {
