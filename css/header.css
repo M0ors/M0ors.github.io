@@ -8,7 +8,7 @@
     justify-content: space-between;
     z-index: 1;
     background: var(--two);
-    filter: drop-shadow(0px 4px 0 var(--one));
+    box-shadow: 0px 0px 0px 3px var(--one);
 }
 
 .logo {
@@ -76,16 +76,32 @@ input:checked~ul.dropdown {
     width: 200px;
     border-radius: 0 0 100px 100px;
     background: var(--three);
-}
-
-li::marker {
-    display: none;
+    list-style: none;
 }
 
 .dropdown-list {
     width: 160px;
     height: 40px;
     margin: 10px 20px;
+    display: flex;
+}
+
+.dropdown-list a {
+    font-family: Geologica;
+    color: var(--three);
+    font-weight: bold;
+    letter-spacing: 0;
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+    text-align: center;
     border-radius: 20px;
     background: var(--four);
+    transition: 300ms;
+    line-height: 40px;
+}
+
+.dropdown-list a:hover {
+    color: var(--two);
+    background: var(--three);
 }
